@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunrise Abroad 日升留学 | 一站式留学申请</title>
+  <meta name="description" content="背景评估、选校、文书、网申、签证与行前，一站式留学申请服务。" />
+  <!-- Tailwind CDN（演示/小站足够，生产建议改用构建） -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* 轻量动画 */
+    @keyframes fadeUp { from {opacity: 0; transform: translateY(12px)} to {opacity:1; transform: translateY(0)} }
+    .fade-up { animation: fadeUp .6s ease-out both; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- 顶部导航 -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-2xl bg-slate-900 flex items-center justify-center text-white font-semibold">S</div>
+        <span class="font-semibold">Sunrise Abroad 日升留学</span>
+        <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs bg-slate-100 text-slate-700 border border-slate-200 ml-2">官方认证</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="text-slate-600 hover:text-slate-900">服务</a>
+        <a href="#destinations" class="text-slate-600 hover:text-slate-900">热门国家</a>
+        <a href="#programs" class="text-slate-600 hover:text-slate-900">项目类型</a>
+        <a href="#process" class="text-slate-600 hover:text-slate-900">申请流程</a>
+        <a href="#success" class="text-slate-600 hover:text-slate-900">成功案例</a>
+        <a href="#pricing" class="text-slate-600 hover:text-slate-900">服务套餐</a>
+        <a href="#faq" class="text-slate-600 hover:text-slate-900">常见问题</a>
+        <a href="#contact" class="text-slate-600 hover:text-slate-900">联系我们</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="#contact" class="hidden sm:inline-flex items-center border border-slate-300 text-slate-800 hover:bg-slate-50 px-4 py-2 rounded-lg text-sm"><span class="mr-2">📞</span>免费咨询</a>
+        <a href="#contact" class="inline-flex items-center bg-slate-900 text-white hover:bg-slate-800 px-4 py-2 rounded-lg text-sm">获取方案<span class="ml-1">➡️</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 首屏 Hero -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 grid lg:grid-cols-2 gap-10 items-center">
+      <div class="fade-up">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">一站式留学申请与职业发展平台</h1>
+        <p class="mt-4 text-slate-600 text-base sm:text-lg">从背景评估、选校、文书到签证与落地，我们用数据与方法论，助你拿到心仪 Offer，并顺利迈出国际职业第一步。</p>
+        <div class="mt-6 flex flex-wrap gap-3 text-xs">
+          <span class="inline-flex items-center px-3 py-1 rounded-full bg-slate-100 text-slate-700 border border-slate-200"><span class="mr-1">✅</span>官方合作院校</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full bg-slate-100 text-slate-700 border border-slate-200"><span class="mr-1">✅</span>文书三轮质检</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full bg-slate-100 text-slate-700 border border-slate-200"><span class="mr-1">✅</span>签证通过率高</span>
+        </div>
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="#contact" class="inline-flex items-center justify-center bg-slate-900 text-white hover:bg-slate-800 rounded-2xl px-6 py-3">立即规划</a>
+          <a href="#success" class="inline-flex items-center justify-center border border-slate-300 text-slate-800 hover:bg-slate-50 rounded-2xl px-6 py-3">查看案例</a>
+        </div>
+        <div class="mt-8 grid grid-cols-3 gap-4">
+          <div class="border border-slate-200 bg-white rounded-2xl p-4">
+            <div class="text-2xl font-bold">98.2%</div>
+            <div class="text-xs text-slate-500">签证通过率（近三年）</div>
+          </div>
+          <div class="border border-slate-200 bg-white rounded-2xl p-4">
+            <div class="text-2xl font-bold">5,000+</div>
+            <div class="text-xs text-slate-500">累计 Offer 数量</div>
+          </div>
+          <div class="border border-slate-200 bg-white rounded-2xl p-4">
+            <div class="text-2xl font-bold">11年</div>
+            <div class="text-xs text-slate-500">深耕留学与求职</div>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1600&auto=format&fit=crop" alt="Graduation" class="rounded-3xl shadow-xl w-full"/>
+        <div class="absolute -bottom-6 -left-6">
+          <div class="rounded-2xl shadow-lg border border-slate-200 bg-white p-4 flex items-center gap-3">
+            <span>⭐</span>
+            <div>
+              <div class="text-sm font-semibold">口碑 4.9/5.0</div>
+              <div class="text-xs text-slate-500">来自 1,200+ 学员评价</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 服务 -->
+  <section id="services" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between mb-8">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold">我们的核心服务</h2>
+          <p class="text-slate-600 mt-2">端到端陪伴式交付，过程可视化，结果可量化。</p>
+        </div>
+        <a href="#contact" class="hidden md:inline-flex items-center text-slate-700 hover:bg-slate-100 px-3 py-2 rounded-lg">获取详细方案<span class="ml-1">›</span></a>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">🛡️</div>
+            <div class="font-semibold">一对一背景评估</div>
+          </div>
+          <div class="text-sm text-slate-600 pt-2">学术与活动全维度诊断，给出目标梯度与提升建议</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">🎓</div>
+            <div class="font-semibold">选校选专业</div>
+          </div>
+          <div class="text-sm text-slate-600 pt-2">结合排名/就业/预算的多维度选校矩阵</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">📖</div>
+            <div class="font-semibold">文书深度辅导</div>
+          </div>
+          <div class="text-sm text-slate-600 pt-2">讲故事逻辑 + 打磨语言风格，突出差异化亮点</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">🏢</div>
+            <div class="font-semibold">网申与材料</div>
+          </div>
+          <div class="text-sm text-slate-600 pt-2">时间轴托管，推荐信/成绩单/资金证明规范化</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">🌐</div>
+            <div class="font-semibold">签证与行前</div>
+          </div>
+          <div class="text-sm text-slate-600 pt-2">签证清单、面签模拟、住宿/保险/机票/换汇</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">👥</div>
+            <div class="font-semibold">落地与求职</div>
+          </div>
+          <div class="text-sm text-slate-600 pt-2">校内资源对接、实习指导、行业导师一对一</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门国家 -->
+  <section id="destinations" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-bold">热门留学国家</h2>
+      <p class="text-slate-600 mt-2">不同国家的学制、政策、预算差异明显，我们提供对比与选择建议。</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-md transition">
+          <div class="flex items-center justify-between"><div class="text-xl font-semibold">英国</div><div class="text-2xl">🇬🇧</div></div>
+          <p class="text-sm text-slate-600 mt-2">G5/罗素集团强势学科，性价比高，一年制硕士</p>
+          <div class="mt-4 flex items-center text-sm text-slate-700">📍 可申请城市：伦敦、曼彻斯特等</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-md transition">
+          <div class="flex items-center justify-between"><div class="text-xl font-semibold">美国</div><div class="text-2xl">🇺🇸</div></div>
+          <p class="text-sm text-slate-600 mt-2">综合大学资源丰富，STEM OPT 政策友好</p>
+          <div class="mt-4 flex items-center text-sm text-slate-700">📍 可申请城市：波士顿、纽约等</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-md transition">
+          <div class="flex items-center justify-between"><div class="text-xl font-semibold">加拿大</div><div class="text-2xl">🇨🇦</div></div>
+          <p class="text-sm text-slate-600 mt-2">教育质量稳定，移民通道明确</p>
+          <div class="mt-4 flex items-center text-sm text-slate-700">📍 可申请城市：多伦多、温哥华等</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5 hover:shadow-md transition">
+          <div class="flex items-center justify-between"><div class="text-xl font-semibold">澳大利亚</div><div class="text-2xl">🇦🇺</div></div>
+          <p class="text-sm text-slate-600 mt-2">八大名校，读研时间灵活</p>
+          <div class="mt-4 flex items-center text-sm text-slate-700">📍 可申请城市：悉尼、墨尔本等</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 项目类型 -->
+  <section id="programs" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between mb-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">项目类型与规划</h2>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="font-semibold">本科直申/转学</div>
+          <ul class="space-y-2 text-sm text-slate-700 mt-3">
+            <li class="flex"><span class="mr-2">✅</span>A-Level/AP/IB/高考多路径</li>
+            <li class="flex"><span class="mr-2">✅</span>标化与竞赛规划</li>
+            <li class="flex"><span class="mr-2">✅</span>夏校/科研/社团提升</li>
+          </ul>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="font-semibold">硕士申请</div>
+          <ul class="space-y-2 text-sm text-slate-700 mt-3">
+            <li class="flex"><span class="mr-2">✅</span>商科/CS/数据/金融/教育/设计</li>
+            <li class="flex"><span class="mr-2">✅</span>套磁与教授邮件框架</li>
+            <li class="flex"><span class="mr-2">✅</span>GPA/实习/科研梳理</li>
+          </ul>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="font-semibold">博士与研究型</div>
+          <ul class="space-y-2 text-sm text-slate-700 mt-3">
+            <li class="flex"><span class="mr-2">✅</span>套磁策略与科研匹配</li>
+            <li class="flex"><span class="mr-2">✅</span>简历与RP/PS 深度润色</li>
+            <li class="flex"><span class="mr-2">✅</span>推荐信体系搭建</li>
+          </ul>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="font-semibold">语言与预科</div>
+          <ul class="space-y-2 text-sm text-slate-700 mt-3">
+            <li class="flex"><span class="mr-2">✅</span>语言班/直入双通道</li>
+            <li class="flex"><span class="mr-2">✅</span>本科/硕士预科方案</li>
+            <li class="flex"><span class="mr-2">✅</span>保底院校组合</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 申请流程 -->
+  <section id="process" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-bold">标准化申请流程</h2>
+      <p class="text-slate-600 mt-2">里程碑可追踪，每周站会复盘，确保进度不掉线。</p>
+      <div class="mt-6 grid lg:grid-cols-4 gap-5">
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">🛡️</div>
+          <div class="text-lg mt-3 font-semibold">1. 背景评估与定位</div>
+          <div class="text-sm text-slate-600">测评+目标拆解，形成选校策略与提升计划</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">✉️</div>
+          <div class="text-lg mt-3 font-semibold">2. 选校定校与套磁</div>
+          <div class="text-sm text-slate-600">多维选校模型；科研/教授邮件模板与反馈</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">📖</div>
+          <div class="text-lg mt-3 font-semibold">3. 文书与网申</div>
+          <div class="text-sm text-slate-600">故事线工作坊→多轮打磨→平台递交与跟进</div>
+        </div>
+        <div class="border border-slate-200 bg-white rounded-2xl p-5">
+          <div class="h-10 w-10 rounded-xl bg-slate-900 text-white flex items-center justify-center">📅</div>
+          <div class="text-lg mt-3 font-semibold">4. 签证与行前</div>
+          <div class="text-sm text-slate-600">资金/签证/住宿/机票清单与面签模拟</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 成功案例 -->
+  <section id="success" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between mb-8">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold">近期成功案例</h2>
+          <p class="text-slate-600 mt-2">覆盖商科、计算机、数据、金融、教育等热门方向。</p>
+        </div>
+        <span class="hidden md:inline-flex items-center px-2.5 py-1 rounded-full text-xs bg-slate-100 text-slate-700 border border-slate-200">⭐ 更多案例可咨询顾问</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="rounded-2xl overflow-hidden border border-slate-200 bg-white">
+          <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop" class="w-full h-40 object-cover" alt="case" />
+          <div class="p-4">
+            <div class="font-semibold">UCL MSc Data Science</div>
+            <div class="text-sm text-slate-600 mt-1">双非工科 85/100，科研+两段实习，冲刺成功</div>
+          </div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-slate-200 bg-white">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" class="w-full h-40 object-cover" alt="case" />
+          <div class="p-4">
+            <div class="font-semibold">CMU MISM</div>
+            <div class="text-sm text-slate-600 mt-1">985 CS 3.5/4.0，实习+开源项目，面试表现出色</div>
+          </div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-slate-200 bg-white">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=400&auto=format&fit=crop" class="w-full h-40 object-cover" alt="case" />
+          <div class="p-4">
+            <div class="font-semibold">LSE MSc Finance</div>
+            <div class="text-sm text-slate-600 mt-1">211 经管 3.6/4.0，券商与VC 实习，数理补强</div>
+          </div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-slate-200 bg-white">
+          <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2?q=80&w=400&auto=format&fit=crop" class="w-full h-40 object-cover" alt="case" />
+          <div class="p-4">
+            <div class="font-semibold">UBC MEd</div>
+            <div class="text-sm text-slate-600 mt-1">校内科研助理+教育NGO经历，斩获奖学金</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 定价 -->
+  <section id="pricing" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-bold">服务套餐与定价</h2>
+      <p class="text-slate-600 mt-2">清晰透明的交付边界与里程碑，支持分期。</p>
+      <div class="grid md:grid-cols-3 gap-5 mt-6">
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <div class="p-5 flex items-center justify-between"><div class="text-lg font-semibold">基础咨询</div></div>
+          <div class="px-5 pb-2 text-xl font-bold text-slate-900">￥3,980</div>
+          <div class="p-5 pt-0">
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li class="flex"><span class="mr-2">✅</span>一次1v1全面评估(90分钟)</li>
+              <li class="flex"><span class="mr-2">✅</span>选校清单与时间规划</li>
+              <li class="flex"><span class="mr-2">✅</span>文书框架建议</li>
+            </ul>
+            <a class="w-full mt-4 inline-flex justify-center bg-slate-900 text-white rounded-xl px-4 py-2" href="#contact">预约评估</a>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-slate-900 shadow-lg bg-white">
+          <div class="p-5 flex items-center justify-between"><div class="text-lg font-semibold">标准申请(单国)</div><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs bg-slate-100 text-slate-700 border border-slate-200">热销</span></div>
+          <div class="px-5 pb-2 text-xl font-bold text-slate-900">￥29,800</div>
+          <div class="p-5 pt-0">
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li class="flex"><span class="mr-2">✅</span>8-12所院校方案</li>
+              <li class="flex"><span class="mr-2">✅</span>全套文书打磨</li>
+              <li class="flex"><span class="mr-2">✅</span>网申/材料/进度管理</li>
+              <li class="flex"><span class="mr-2">✅</span>签证与行前指导</li>
+            </ul>
+            <a class="w-full mt-4 inline-flex justify-center bg-slate-900 text-white rounded-xl px-4 py-2" href="#contact">开始申请</a>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <div class="p-5 flex items-center justify-between"><div class="text-lg font-semibold">旗舰托管(含求职)</div></div>
+          <div class="px-5 pb-2 text-xl font-bold text-slate-900">￥49,800</div>
+          <div class="p-5 pt-0">
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li class="flex"><span class="mr-2">✅</span>定制选校矩阵</li>
+              <li class="flex"><span class="mr-2">✅</span>顶尖导师文书1v1</li>
+              <li class="flex"><span class="mr-2">✅</span>教授套磁/面试训练</li>
+              <li class="flex"><span class="mr-2">✅</span>留学落地与求职辅导</li>
+            </ul>
+            <a class="w-full mt-4 inline-flex justify-center bg-slate-900 text-white rounded-xl px-4 py-2" href="#contact">专属定制</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-xs text-slate-500 mt-3">* 实际价格会因项目类型与国家差异有所不同，以合同为准。</div>
+    </div>
+  </section>
+
+  <!-- 认证与合作伙伴 -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-5">
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 flex items-center gap-3"><span>🛡️</span><div><div class="font-semibold">行业认证</div><div class="text-sm text-slate-600">ICEF/英国文化教育协会/UCAS 注册顾问</div></div></div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 flex items-center gap-3"><span>🏢</span><div><div class="font-semibold">合作院校</div><div class="text-sm text-slate-600">UCL、帝国理工、曼大、UBC、NUS、HKU 等</div></div></div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 flex items-center gap-3"><span>💰</span><div><div class="font-semibold">奖学金支持</div><div class="text-sm text-slate-600">申奖材料规划与内部样例库</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-bold text-center">常见问题</h2>
+      <div class="mt-6 divide-y divide-slate-200">
+        <details class="py-3"><summary class="cursor-pointer font-medium">什么时候开始准备最合适？</summary><div class="mt-2 text-sm text-slate-700">通常建议提前 9-12 个月启动；博士项目与奖学金项目需更早。我们会根据你的年级与背景制定甘特时间表。</div></details>
+        <details class="py-3"><summary class="cursor-pointer font-medium">文书是谁来写？</summary><div class="mt-2 text-sm text-slate-700">所有文书均由你主笔、我们共创。我们提供结构、故事线与语言打磨，确保真实性与个性化。</div></details>
+        <details class="py-3"><summary class="cursor-pointer font-medium">签约后可以更换导师吗？</summary><div class="mt-2 text-sm text-slate-700">可以。我们有首席顾问、文书主笔与国家线导师的轮换与质检机制，确保体验稳定。</div></details>
+        <details class="py-3"><summary class="cursor-pointer font-medium">被拒怎么办？</summary><div class="mt-2 text-sm text-slate-700">提供免费复盘与第二梯度应对方案（补申/转项/桥梁项目），减少申请风险。</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我们 -->
+  <section id="contact" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-8 items-start">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold">获取你的专属留学方案</h2>
+          <p class="text-slate-600 mt-2">填写表单，24 小时内会有资深顾问与你取得联系（支持微信/WhatsApp）。</p>
+          <div class="mt-6 space-y-3 text-sm">
+            <div class="flex items-center">📞 微信/手机：+86 188-0000-0000</div>
+            <div class="flex items-center">✉️ 邮箱：admission@sunriseabroad.com</div>
+            <div class="flex items-center">📍 深圳｜上海｜北京｜伦敦 设有办公室</div>
+            <div class="flex items-center">💬 工作日 10:00-19:00 在线咨询</div>
+          </div>
+          <div class="mt-6">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="team" class="rounded-2xl shadow"/>
+          </div>
+        </div>
+
+        <div class="rounded-2xl shadow-lg border border-slate-200 bg-white p-5">
+          <div class="text-lg font-semibold">快速咨询</div>
+          <div class="text-sm text-slate-600">基础信息越完整，方案越精准</div>
+          <form id="leadForm" class="space-y-4 mt-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="text-sm text-slate-700">姓名</label>
+                <input name="name" required placeholder="你的名字" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+              </div>
+              <div>
+                <label class="text-sm text-slate-700">电话/微信</label>
+                <input name="phone" required placeholder="便于快速联系" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+              </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="text-sm text-slate-700">邮箱</label>
+                <input type="email" name="email" placeholder="可选" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+              </div>
+              <div>
+                <label class="text-sm text-slate-700">意向国家</label>
+                <input name="country" placeholder="如 英国 / 美国 / 加拿大" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+              </div>
+            </div>
+            <div>
+              <label class="text-sm text-slate-700">当前背景与需求</label>
+              <textarea name="notes" placeholder="学校/专业/GPA/语言分数/目标专业，或其他需求" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300 min-h-[120px]"></textarea>
+            </div>
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span>🛡️ 信息加密，仅用于留学咨询</span>
+              <a href="#" class="underline">隐私政策</a>
+            </div>
+            <button type="submit" class="w-full inline-flex justify-center bg-slate-900 text-white rounded-xl px-4 py-2">提交并获取初步方案</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="border-t bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid md:grid-cols-4 gap-6 text-sm">
+      <div>
+        <div class="flex items-center gap-2">
+          <div class="h-8 w-8 rounded-xl bg-slate-900 text-white flex items-center justify-center">S</div>
+          <div class="font-semibold">Sunrise Abroad</div>
+        </div>
+        <p class="text-slate-600 mt-3">以学生为中心的留学与职业发展服务，透明、专业、负责。</p>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">快速导航</div>
+        <ul class="space-y-2 text-slate-600">
+          <li><a href="#services" class="hover:text-slate-900">服务</a></li>
+          <li><a href="#destinations" class="hover:text-slate-900">热门国家</a></li>
+          <li><a href="#programs" class="hover:text-slate-900">项目类型</a></li>
+          <li><a href="#process" class="hover:text-slate-900">申请流程</a></li>
+          <li><a href="#pricing" class="hover:text-slate-900">服务套餐</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">资源</div>
+        <ul class="space-y-2 text-slate-600">
+          <li><a href="#" class="hover:text-slate-900">申请时间线</a></li>
+          <li><a href="#" class="hover:text-slate-900">奖学金清单</a></li>
+          <li><a href="#" class="hover:text-slate-900">签证材料下载</a></li>
+          <li><a href="#" class="hover:text-slate-900">录取案例库</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">联系我们</div>
+        <div class="space-y-2 text-slate-600">
+          <div class="flex items-center">📞 +86 188-0000-0000</div>
+          <div class="flex items-center">✉️ admission@sunriseabroad.com</div>
+          <div class="flex items-center">📍 深圳市南山区科兴科学园</div>
+        </div>
+      </div>
+    </div>
+    <div class="border-t py-4 text-center text-xs text-slate-500">© <span id="year"></span> Sunrise Abroad. All rights reserved.</div>
+  </footer>
+
+  <script>
+    // 年份 & 表单提交
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('leadForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const fd = new FormData(e.target);
+      const data = Object.fromEntries(fd.entries());
+      alert(`已提交咨询\n姓名：${data.name || ''}\n电话/微信：${data.phone || ''}\n邮箱：${data.email || ''}\n意向国家：${data.country || ''}\n背景与需求：${data.notes || ''}`);
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>
